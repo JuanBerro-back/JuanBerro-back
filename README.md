@@ -1,3 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Mi banner" width="100%">
+  <a href="https://github.com/JuanBerro-back/JuanBerro-back/blob/main/banner.svg">
+    <img src="https://raw.githubusercontent.com/JuanBerro-back/JuanBerro-back/main/banner.svg" alt="Mi banner" width="100%">
+  </a>
 </p>
