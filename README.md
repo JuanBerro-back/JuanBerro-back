@@ -2,6 +2,10 @@
   <img src="./banner.svg" alt="Banner de JuanBerro-back" width="100%">
 </p>
 
+<p align="center">
+  <img src="./stardew_cat.svg" alt="Stardew Valley Cat Walking" width="100%">
+</p>
+
 <h1 align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
   Hola, soy Juan Berro!
