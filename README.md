@@ -42,7 +42,7 @@
 
 ## Mis Contribuciones
 
-<img alt="pacman contribution graph" src="https://raw.githubusercontent.com/JuanBerro-back/JuanBerro-back/main/acrade-contributions.svg">
+<img alt="galaga contribution graph" src="https://raw.githubusercontent.com/JuanBerro-back/JuanBerro-back/output/galaga-contribution-graph.svg">
 
 ---
 

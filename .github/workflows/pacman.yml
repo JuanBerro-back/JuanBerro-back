@@ -1,4 +1,4 @@
-name: Generate Pac-Man contribution animation
+name: generate arcade contribution graphs
 
 on:
   schedule:
@@ -10,23 +10,24 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
     permissions:
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: abozanona/pacman-contribution-graph@main
+      - name: generate contribution graph SVGs
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          games: 'galaga'
 
-      - name: Push SVG to output branch
+      - name: push SVGs to the output branch
         run: |
           cd dist
           git init -b output
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "update pacman graph [skip ci]"
+          git commit -m "update galaga graph [skip ci]"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output:output
