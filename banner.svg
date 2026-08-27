@@ -201,7 +201,7 @@
 
     
     <text x="450" y="308" text-anchor="middle" font-size="12" letter-spacing="3" fill="rgba(255,255,255,0.5)">&#10024; BIENVENIDO A MI GITHUB &#10024;</text>
-  <g class="cat-container">
+  <g transform="translate(0, 22)"><g class="cat-container">
   <g class="frame0">
     <rect x="12" y="162" width="4" height="4" fill="#5F1405" />
     <rect x="16" y="162" width="4" height="4" fill="#5F1405" />
@@ -2195,5 +2195,5 @@
 </g>
 
 
-</g>
+</g></g>
 </svg>
