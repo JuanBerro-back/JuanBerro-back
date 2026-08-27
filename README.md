@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://github.com/JuanBerro-back/JuanBerro-back/blob/main/banner.svg">
-    <img src="https://raw.githubusercontent.com/JuanBerro-back/JuanBerro-back/main/banner.svg" alt="Mi banner" width="100%">
+  <a href="https://github.com/JuanBerro-back/JuanBerro-back/blob/main/stardew_cat.svg">
+    <img src="https://raw.githubusercontent.com/JuanBerro-back/JuanBerro-back/main/stardew_cat.svg" alt="Mi banner" width="100%">
   </a>
 </p>
 
-<h1 align="center">Juan Berro</h1>
+<h1 align="center">¡Bienvenido a mi repositorio JuanBerro-back! 👋</h1>
 
 <p align="center">
   <em>Estudiante de desarrollo web en constante aprendizaje</em>
